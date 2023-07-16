@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.nav-item {
+  .nav-link {
+    font-size: 19px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 500;
+    margin: 0 10px;
+  }
+}
+
+.check-price {
+  .container-price {
+    width: 45%;
+  }
+}
+
+.point-card {
+  width: 50%;
+}
+
+.wave-top {
+  background: #f8fafc 0% 0% no-repeat padding-box;
+  padding: 15px;
+  margin-top: -140px;
+  height: 200px;
+  width: 100%;
+  clip-path: polygon(
+    100% 100%,
+    0% 100%,
+    0% 11.98%,
+    2.5% 8.76%,
+    5% 6.01%,
+    7.5% 3.79%,
+    10% 2.14%,
+    12.5% 1.09%,
+    15% 0.66%,
+    17.5% 0.87%,
+    20% 1.71%,
+    22.5% 3.15%,
+    25% 5.18%,
+    27.5% 7.75%,
+    30% 10.82%,
+    32.5% 14.31%,
+    35% 18.16%,
+    37.5% 22.29%,
+    40% 26.63%,
+    42.5% 31.08%,
+    45% 35.56%,
+    47.5% 39.97%,
+    50% 44.23%,
+    52.5% 48.25%,
+    55% 51.96%,
+    57.5% 55.27%,
+    60% 58.13%,
+    62.5% 60.47%,
+    65% 62.25%,
+    67.5% 63.44%,
+    70% 64%,
+    72.5% 63.94%,
+    75% 63.24%,
+    77.5% 61.93%,
+    80% 60.02%,
+    82.5% 57.57%,
+    85% 54.61%,
+    87.5% 51.21%,
+    90% 47.43%,
+    92.5% 43.35%,
+    95% 39.05%,
+    97.5% 34.62%,
+    100% 30.14%
+  );
+}
+
+.card-section {
+  background: #f8fafc 0% 0% no-repeat padding-box;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.wave-bottom {
+  background: #f8fafc 0% 0% no-repeat padding-box;
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+  clip-path: polygon(
+    100% 0%,
+    0% 0%,
+    0% 80.83%,
+    2.5% 77.71%,
+    5% 74.53%,
+    7.5% 71.36%,
+    10% 68.26%,
+    12.5% 65.3%,
+    15% 62.53%,
+    17.5% 60.01%,
+    20% 57.79%,
+    22.5% 55.91%,
+    25% 54.41%,
+    27.5% 53.33%,
+    30% 52.67%,
+    32.5% 52.47%,
+    35% 52.71%,
+    37.5% 53.39%,
+    40% 54.51%,
+    42.5% 56.04%,
+    45% 57.94%,
+    47.5% 60.19%,
+    50% 62.73%,
+    52.5% 65.51%,
+    55% 68.49%,
+    57.5% 71.59%,
+    60% 74.76%,
+    62.5% 77.94%,
+    65% 81.06%,
+    67.5% 84.06%,
+    70% 86.88%,
+    72.5% 89.46%,
+    75% 91.75%,
+    77.5% 93.7%,
+    80% 95.29%,
+    82.5% 96.47%,
+    85% 97.22%,
+    87.5% 97.53%,
+    90% 97.39%,
+    92.5% 96.8%,
+    95% 95.77%,
+    97.5% 94.34%,
+    100% 92.51%
+  );
+}
+
+.card {
+  transition: transform 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.employee-section h2 {
+  margin-top: -200px;
+}
+
+.employe-img {
+  margin-top: -110px;
+}
+
+.card-container {
+  background: #f8fafc;
+  height: 400px;
+}
+
+.next-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  color: #000;
+  margin-right: -180px;
+  box-shadow: 5px 2px 8px 5px rgb(197, 190, 190);
+}
+
+.rating {
+  color: #f8b84e;
+  font-size: 12px;
+}
+
+.cards-text {
+  font-size: 14px;
+}
+
+.card-rectange-box {
+  height: 25rem;
+  background: #f8fafc;
+  border-radius: 42px;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+
+  .card-4-image-1 {
+    width: 4rem;
+    height: 4rem;
+  }
+  .card-1 {
+    min-width: 22.8rem;
+    border-radius: 2rem;
+    .star-image {
+      width: 1rem;
+      height: inherit;
+    }
+  }
+}
+
+.arrow-bg {
+  height: 55px;
+  margin-top: 9rem;
+  border-radius: 50%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+
+  .arrow {
+    background: #707070 0% 0% no-repeat padding-box;
+    height: 1px;
+    width: 1px;
+    padding: 10px;
+    clip-path: polygon(48% 0, 100% 50%, 48% 100%, 0% 100%, 45% 48%, 0 0);
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 40vh;
+  margin-top: 30vh;
+  background-color: black;
+}
+
+// ----------------------------- Media-Query -------------------------------------
+
+@media (max-width: 768px) {
+  .check-price {
+    h1 {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+  }
+
+  .employe-img {
+    margin-top: -80px !important;
+  }
+
+  .card-rectange-box {
+    .card-1 {
+      margin-left: -10px;
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f8fafc;
+
+    .navbar-collapse {
+      justify-content: center;
+      border: 1px solid #c4c8cb;
+      border-radius: 10px;
+      background: #ffffff;
+      text-align: left;
+      padding: 10px;
+    }
+  }
+
+  .point-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 999px) {
+  .check-price {
+    .container-price {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1410px) {
+  .card-rectange-box {
+    height: auto !important;
+    .card-1 {
+      margin-bottom: 20px;
+    }
+  }
+}
